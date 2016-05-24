@@ -11,6 +11,7 @@ $(document).ready(function() {
     });
 
     var sendMessage = function(pseudo, message) {
+        var sendMessage = str.replace(":)", "Suliman");
         myFirebaseRef.push({
             pseudo: pseudo,
             message: message
